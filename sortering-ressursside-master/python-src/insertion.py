@@ -10,7 +10,7 @@ def sort(A):
                 j -= 1
                 i = j + 1
             else:
-                j -= 1
+                break
 
     # Use A.swap(i, j) to swap the values at two indices i and j. The swap is
     # counted, when using this method. Comparisons are counted automatically.
